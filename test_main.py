@@ -1,4 +1,5 @@
 from unittest import TestCase
+
 from main import argv_pars, pss
 
 
@@ -13,9 +14,11 @@ class TestArgvPars(TestCase):
         5: ["5", "6"],
         7: ["7.9", "7"],
     }
+
     def test_argv_pars(self):
         for expected, argv in self.T_ARGV.items():
             self.assertEqual(expected, argv_pars(argv))
+
 
 class TestPss(TestCase):
     def test_pss(self):

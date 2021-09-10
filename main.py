@@ -1,5 +1,5 @@
-from sys import argv
 from secrets import token_urlsafe
+from sys import argv
 from typing import List
 
 
