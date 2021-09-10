@@ -19,8 +19,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install pipenv
           pipenv install
-          echo $(pwd)
       - name: Test with pytest
         run: |
-          pipenv run coverage run --omit '*/virtualenvs/*' -m pytest test_main
+          pipenv run coverage run --omit '*/virtualenvs/*' -m pytest 
           pipenv run coverage report
