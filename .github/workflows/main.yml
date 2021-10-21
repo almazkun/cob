@@ -32,8 +32,8 @@ jobs:
       
       - name: Upload to repo
         run: |
-          git config --global user.email "you@example.com"
-          git config --global user.name "Your Name"
+          git config --global user.email "hello@akun.dev"
+          git config --global user.name "Almaz Kunpeissov"
           git add -f ./coverage.svg
           git commit -m "update the badge"
           git push
