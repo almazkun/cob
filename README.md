@@ -1,4 +1,4 @@
-![conda store UI](coverage.svg)
+![COVERAGE](coverage.svg)
 # cob
 Github Actions Coverage Badge
 
